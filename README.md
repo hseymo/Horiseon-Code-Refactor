@@ -1,6 +1,4 @@
 # Horiseon-Code-Refactor
-README
-
 LICENSE: xxx
 
 INSTALLATION: Fork this repository and clone it to your local source using git clone commands.
@@ -21,22 +19,21 @@ Check out Horiseon by clicking [here](https://hseymo.github.io/Horiseon-Code-Ref
 DEMONSTRATION
 
 By visiting this webpage, you will find a product demonstrating how Horiseon can help with your webpage. By following accessibility standards, it is optimized for search engines. Upon reviewing the page, you will find:
--HTML uses semantic elements. This helps communicate to screen-readers and other accessiblity features what the components of the page are. 
--HTML follows logical structure. It is broken down into easy to read parts, like the header, main, aside, articles, footer. 
--The images and logos on the page have alt attributes to explain the image should it not appear or be read by a screen-reader.
--Headings are logical and sequential; making them easy to follow.
--The website's title is descriptive of what the page represents. 
--Please note that the page is a WIP and is not yet optimized for screens smaller tha 768px.  
+HTML uses semantic elements. This helps communicate to screen-readers and other accessiblity features what the components of the page are. 
+- HTML follows logical structure. It is broken down into easy to read parts, like the header, main, aside, articles, footer. 
+- The images and logos on the page have alt attributes to explain the image should it not appear or be read by a screen-reader.
+- Headings are logical and sequential; making them easy to follow.
+- The website's title is descriptive of what the page represents. 
+- Please note that the page is a WIP and is not yet optimized for screens smaller tha 768px.  
 
 
 APPLICATION
-[Screenshot](./assets/01-html-css-git-homework-demo.png)
+![Screenshot](./assets/01-html-css-git-homework-demo.png)
 
 AWKNOWLEDGMENTS
 This project is a code refactor for the University of Washington Web Development Bootcamp. Initial html, css and image files were all provided by the organization. 
 
 QUESTIONS
-If you have any questions, please contact me on GitHub at [hseymo](https://github.com/hseymo)
-Email at [Haley](mailto:fake@gmail.com)
+If you have any questions, please contact me on GitHub at [hseymo](https://github.com/hseymo) or by [email](mailto:fake@gmail.com).
 
 LINK to [Horiseon](https://hseymo.github.io/Horiseon-Code-Refactor/#social-media-marketing).
