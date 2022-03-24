@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* instead of calling header and footer by their class, changed selector to call by the semantical html */
+/* classes header and footer replaced with semantical elements and therefore selector modified to call by element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,8 +25,7 @@ header h1 {
     color: #d9dcd6;
 }
 
-/* class created for navagation tool to simplify selectors */
-.nav-bar {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +33,11 @@ header h1 {
     font-size: 20px;
 }
 
-.nav-bar ul {
+nav ul {
     list-style-type: none;
 }
 
-.nav-bar ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -77,7 +76,7 @@ p {
     margin-left: 20px;
 }
 
-/* classes renamed for each article within content class. all articles given the same class (while maintaining unique id). We can now simplify the next few lines of selectors using our new class, content-item*/
+/* class standardized for each article within content main section. all articles given the same class (while maintaining unique id). Selector sections combined and simplified using new class */
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,7 +107,7 @@ p {
     background-color: #2589bd;
 }
 
-/* similar logic as above. each article within benefits was given the same class name to simplify/group styling for the next three items */
+/* similar logic as above. each article within benefits was a standardized class to simplify/group styling for the next few items */
 .benefits-item {
     margin-bottom: 32px;
     color: #ffffff;
